@@ -1,0 +1,27 @@
+json
+{
+  "name": "my-image-host",
+  "version": "1.0.0",
+  "description": "Simple image hosting service",
+  "main": "index.html",
+  "scripts": {
+    "start": "node api/upload.js",
+    "dev": "node api/upload.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "cloudinary": "^1.41.0",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/你的用户名/你的仓库名.git"
+  },
+  "keywords": ["image", "upload", "cloudinary", "hosting"],
+  "author": "你的名字",
+  "license": "MIT"
+}
